@@ -1,0 +1,82 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    height: 522px;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.container img{
+    border-radius: 10px;
+}
+
+.container .descrition .learning{
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    width: 82px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.container .descrition .date{
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.container .descrition .tags{
+    margin-top: 12px;
+}
+
+.container .descrition .tags a{
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    font-size: 24px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.container .descrition .motivation{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.container .autor{
+    display: flex;
+    align-items: center;
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: 'Figtree', sans-serif;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
