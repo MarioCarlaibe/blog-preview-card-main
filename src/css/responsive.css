@@ -1,0 +1,12 @@
+@media (max-width: 440px){
+    body main .container{
+        width: 327px;
+        height: 501px;
+    }
+    .container .attribution{
+        font-size: 10px;
+    }
+    body .container .descrition .tags .link{
+        font-size: 23px;
+    }
+}

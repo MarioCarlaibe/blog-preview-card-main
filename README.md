@@ -23,8 +23,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione a URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione a URL do site ativo aqui](https://your-live-site-url.com)
+- URL da solução: [https://github.com/MarioCarlaibe/blog-preview-card-main]
+- URL do site ativo: [https://mariocarlaibe.github.io/blog-preview-card-main/]
 
 ## Meu processo
 
@@ -52,3 +52,5 @@ o box-shadow não havia usado ainda, mas no site da MDN e na W3school foi facil 
 }
 
 nesse caso relembrei a importancia de usar variaveis e o hover, para estilizar alguns links.
+
+e com respeito a ser responsivo, estava tendo dificuldades com a tags que não respondiam, e aprendi mais a respeito de especificidade, e dai o porque de não conseguir estilizar determinados elementos.
