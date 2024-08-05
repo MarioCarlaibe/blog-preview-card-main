@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--Yellow);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -12,11 +12,13 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     width: 384px;
     height: 522px;
     padding: 24px;
     border-radius: 20px;
+    box-shadow: 8px 8px #000000;
+    border: 1px solid #000000;
 }
 
 .container img{
@@ -24,8 +26,8 @@ body{
 }
 
 .container .descrition .learning{
-    color: hsl(0, 0%, 7%);
-    background-color: hsl(47, 88%, 63%);
+    color: var(--Gray-950);
+    background-color: var(--Yellow);
     width: 82px;
     height: 29px;
     display: flex;
@@ -38,7 +40,7 @@ body{
 }
 
 .container .descrition .date{
-    color: hsl(0, 0%, 7%);
+    color: var(--Gray-950);
     font-size: 14px;
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
@@ -49,16 +51,20 @@ body{
     margin-top: 12px;
 }
 
-.container .descrition .tags a{
+.container .descrition .tags .link{
     text-decoration: none;
-    color: hsl(0, 0%, 7%);
+    color: var(--Gray-950);
     font-size: 24px;
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
 }
 
+.container .descrition .tags .link:hover{
+    color: var(--Yellow);
+}
+
 .container .descrition .motivation{
-    color: hsl(0, 0%, 42%);
+    color: var(--Gray-500);
     font-size: 16px;
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
@@ -68,10 +74,18 @@ body{
 .container .autor{
     display: flex;
     align-items: center;
+    color: var(--Gray-950);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.container .autor .avatar{
+    max-width: 32px;
+    margin-right: 12px;
 }
 
 .attribution{ 
-    font-size: 11px; 
+    font-size: 12px; 
     text-align: center; 
     font-family: 'Figtree', sans-serif;
 }
